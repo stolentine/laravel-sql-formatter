@@ -1,0 +1,56 @@
+{
+    "name": "stolentine/laravel-sql-formatter",
+    "description": "Sql formatter for laravel",
+    "keywords": [
+        "stolentine",
+        "laravel-sql-formatter",
+        "laravel",
+        "sql",
+        "formatter"
+    ],
+    "homepage": "https://github.com/stolentine/laravel-sql-formatter",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "stolentine",
+            "email": "stolentine@gmail.com"
+        }
+    ],
+    "require": {
+        "php": "^7.4",
+        "ext-json": "*",
+        "doctrine/sql-formatter": "1.1.*"
+    },
+    "require-dev": {
+        "friendsofphp/php-cs-fixer": "^2.16",
+        "orchestra/testbench": "^6.0",
+        "phpunit/phpunit": "^9.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "Stolentine\\LaravelSqlFormatter\\": "src"
+        },
+        "files": [
+            "src/helpers_functions.php"
+        ]
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Stolentine\\LaravelSqlFormatter\\Tests\\": "tests"
+        }
+    },
+    "scripts": {
+        "psalm": "vendor/bin/psalm",
+        "test": "vendor/bin/phpunit",
+        "test-coverage": "vendor/bin/phpunit --coverage-html coverage",
+        "format": "vendor/bin/php-cs-fixer fix --allow-risky=yes"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Stolentine\\LaravelSqlFormatter\\LaravelSqlFormatterServiceProvider"
+            ]
+        }
+    }
+}
