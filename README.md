@@ -1,1 +1,53 @@
-# laravel-sql-formatter
+#Дополнительные команды для миграций
+
+
+## Доступные команды
+
+* [Текст ссылки](#abcd)
+
+
+lorem eesfwfew ewfwfwef weferg jnfe uihwerf
+hibbewrfiubwefiu ibwefibwefiubweiuwefijbw efiu
+hibbewrfiubwefiu ibwefibwefiubweiuwefijbw efiu
+hibbewrfiubwefiu ibwefibwefiubweiuwefijbw efiu
+hibbewrfiubwefiu ibwefibwefiubweiuwefijbw efiu
+hibbewrfiubwefiu ibwefibwefiubweiuwefijbw efiu
+hibbewrfiubwefiu ibwefibwefiubweiuwefijbw efiu
+hibbewrfiubwefiu ibwefibwefiubweiuwefijbw efiu
+hibbewrfiubwefiu ibwefibwefiubweiuwefijbw efiu
+hibbewrfiubwefiu ibwefibwefiubweiuwefijbw efiu
+hibbewrfiubwefiu ibwefibwefiubweiuwefijbw efiu
+hibbewrfiubwefiu ibwefibwefiubweiuwefijbw efiu
+hibbewrfiubwefiu ibwefibwefiubweiuwefijbw efiu
+hibbewrfiubwefiu ibwefibwefiubweiuwefijbw efiu
+hibbewrfiubwefiu ibwefibwefiubweiuwefijbw efiu
+hibbewrfiubwefiu ibwefibwefiubweiuwefijbw efiu
+hibbewrfiubwefiu ibwefibwefiubweiuwefijbw efiu
+hibbewrfiubwefiu ibwefibwefiubweiuwefijbw efiu
+hibbewrfiubwefiu ibwefibwefiubweiuwefijbw efiu
+hibbewrfiubwefiu ibwefibwefiubweiuwefijbw efiu
+hibbewrfiubwefiu ibwefibwefiubweiuwefijbw efiu
+hibbewrfiubwefiu ibwefibwefiubweiuwefijbw efiu
+hibbewrfiubwefiu ibwefibwefiubweiuwefijbw efiu
+hibbewrfiubwefiu ibwefibwefiubweiuwefijbw efiu
+hibbewrfiubwefiu ibwefibwefiubweiuwefijbw efiu
+hibbewrfiubwefiu ibwefibwefiubweiuwefijbw efiu
+hibbewrfiubwefiu ibwefibwefiubweiuwefijbw efiu
+hibbewrfiubwefiu ibwefibwefiubweiuwefijbw efiu
+hibbewrfiubwefiu ibwefibwefiubweiuwefijbw efiu
+hibbewrfiubwefiu ibwefibwefiubweiuwefijbw efiu
+hibbewrfiubwefiu ibwefibwefiubweiuwefijbw efiu
+hibbewrfiubwefiu ibwefibwefiubweiuwefijbw efiu
+hibbewrfiubwefiu ibwefibwefiubweiuwefijbw efiu
+
+
+### Перезапуск последней миграции
+<a name="abcd"></a>
+```sh
+php artisan migrate:restart
+```
+Аналогичено последовательному вызову 
+```sh
+php artisan migrate:rollback
+php artisan migrate
+```
