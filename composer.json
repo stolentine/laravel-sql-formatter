@@ -18,7 +18,7 @@
         }
     ],
     "require": {
-        "php": "^7.4|8.0",
+        "php": "^7.4|^8.0",
         "ext-json": "*",
         "doctrine/sql-formatter": "1.1.*"
     },
