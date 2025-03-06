@@ -11,14 +11,7 @@ use Illuminate\Database\Query\Builder;
  */
 class BuilderMixin
 {
-    public function _toSql()
-    {
-        return function () {
-            ddSql($this->toSql());
-        };
-    }
-
-    public function _dd()
+    public function ddSql()
     {
         return function () {
             ddSql($this->toSql(), $this->getBindings());
